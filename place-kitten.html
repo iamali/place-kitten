@@ -1,0 +1,29 @@
+<link href="../polymer/polymer.html" rel="import">
+
+<polymer-element name="place-kitten" attributes="width, height, greyscale">
+
+    <template>
+        <link href="place-kitten.css" rel="stylesheet">
+
+        <template if="{{greyscale}}">
+            <img src="http://placekitten.com/g/{{ width }}/{{ height }}" alt="" />
+        </template>
+
+        <template if="{{!greyscale}}">
+            <img src="http://placekitten.com/{{ width }}/{{ height }}" alt="" />
+        </template>
+
+        <p><content></content></p>
+    </template>
+
+    <script>
+        Polymer('place-kitten', {
+            publish: {
+                width: '400',
+                height: '300',
+                greyscale: false
+            }
+        });
+    </script>
+
+</polymer-element>

@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+
+:host { display: block; }
+img { margin: 0 0 10px; max-width: 100%; display: block; }
+p { margin: 0; text-transform: uppercase; }
+
+@media screen and (max-width: 420px) {
+	img { width: 100%; }
+}
