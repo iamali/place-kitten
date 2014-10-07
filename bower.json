@@ -1,0 +1,26 @@
+{
+  "name": "place-kitten",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iamali/place-kitten",
+  "description": "Kittens, everywhere!",
+  "main": "place-kittens.html",
+  "keywords": [
+    "web-components", 
+    "place-holders", 
+    "kittens", 
+    "web", 
+    "components",
+    "custom", 
+    "elements"
+  ],
+  "authors": [
+    "Ali Green"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "README.md"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.4"
+  }
+}
