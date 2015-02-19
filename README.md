@@ -5,12 +5,12 @@
 
 Import polyfill
 ```
-<script src="components/platform/platform.js"></script>
+<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
 ```
 
 Import element
 ```
-<link rel="import" href="components/place-kitten/place-kitten.html">
+<link rel="import" href="place-kitten/place-kitten.html">
 ```
 
 Use element
