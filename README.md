@@ -5,7 +5,7 @@
 
 Install Bower components
 ```
-bpwer install
+bower install
 ```
 
 Import polyfill
