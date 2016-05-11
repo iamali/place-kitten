@@ -1,7 +1,8 @@
 &lt;place-kitten&gt;
-============
+===
 
-##Destructions
+Destructions
+---------------
 
 Install Bower components
 ```
@@ -23,7 +24,8 @@ Use element
 <place-kitten></place-kitten>
 ```
 
-##Attributes
+Attributes
+---------------
 
 | Attribute  | Description | Example  | Default  |
 |---|---|---|---|
