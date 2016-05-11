@@ -1,5 +1,6 @@
 &lt;place-kitten&gt;
 ===
+A Place kitten element using Polymer
 
 Destructions
 ---------------
